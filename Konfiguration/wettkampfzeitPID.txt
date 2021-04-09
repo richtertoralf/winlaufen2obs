@@ -1,0 +1,2 @@
+ProgrammPID = 3830
+ProgrammName = ./wettkampfzeit.sh
