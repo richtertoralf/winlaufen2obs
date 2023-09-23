@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    /* Alpha-Wert 0 für vollständige Transparenz */
+    width: 90%;
+    max-width: 1920px;
+    height: 90vh;
+    max-height: 1080px;
+    margin: 0 auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#uhrzeit {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    font-size: 30px;
+    grid-row: 1;
+}
+
+#aktuelleUhrzeit {
+    text-align: left;
+    color: #ffff;
+    background: rgba(0, 79, 169, 0.7);
+    width: 120px;
+    padding: 10px;
+}
+
+#starter {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 85px 250px 350px 450px 85px;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    grid-row: 3;
+    align-self: end; /* Am unteren Rand ausrichten */
+}
+
+#startzeit {
+    text-align: left;
+    color: #ffff;
+    background: linear-gradient(to bottom, rgba(0, 79, 169, 0.8), rgba(30, 144, 255, 0.7));
+    width: 120px;
+    padding: 10px;
+    grid-row: 1;
+    grid-column: span 5;
+}
+
+.starter-style {
+    text-align: left;
+    color: #ffff;
+    background: linear-gradient(to bottom, rgba(30, 144, 255, 0.7), rgba(0, 79, 169, 0.8));
+    padding: 10px;
+}
