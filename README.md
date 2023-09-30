@@ -1,3 +1,5 @@
+>Das folgende ist schon paar Jahre alt und hat uns oft gute Dienste geleistet. Praktikabler ist aber die Umsetzung als Webversion. Da gibt es oben einen Ordner :-)
+
 # winlaufen2obs
 Das Skript wettkampfzeit.sh liefert eine formatierte Uhrzeit und speichert diese als Text in einer Textdatei.
 Das Skript starter2obs.sh liest aus einer csv-Datei jeweils zur aktuellen Startzeit die Daten der gemeldeten Starter und gibt diese Daten als Textdateien aus.
