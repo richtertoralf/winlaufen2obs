@@ -1,6 +1,6 @@
 // Lade die CSV-Datei mit einem XMLHttpRequest
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'csv/Test_StartlisteEinzelstart.csv', true);
+xhr.open('GET', 'csv/StartlisteEinzelstart.csv', true);
 xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
         var csvData = xhr.responseText;
@@ -43,6 +43,7 @@ function processData(csvData) {
             document.getElementById('vorname').textContent = gefundenerDatensatz[1];
             document.getElementById('name').textContent = gefundenerDatensatz[0];
             document.getElementById('verein').textContent = gefundenerDatensatz[2];
+            document.getElementById('verband').textContent = gefundenerDatensatz[3];
             document.getElementById('nation').textContent = gefundenerDatensatz[10];
         }
     }
